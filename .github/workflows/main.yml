@@ -28,7 +28,7 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v3.3.0
         with:
-          java-version: 1.8
+          java-version: 8
           distribution: adopt
                  
       # Runs a single command using the runners shell
